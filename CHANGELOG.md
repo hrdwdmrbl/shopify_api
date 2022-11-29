@@ -4,6 +4,8 @@ Note: For changes to the API, see https://shopify.dev/changelog?filter=api
 
 ## Unreleased
 
+- [#1071](https://github.com/Shopify/shopify-api-ruby/issues/1071) Fix FulfillmentEvent class types
+
 ## 13.3.0
 
 - [#1241](https://github.com/Shopify/shopify-api-ruby/pull/1241) Add `api_host` to `ShopifyAPI::Context.setup`, allowing the API host to be overridden in `ShopifyAPI::Clients::HttpClient`. This context option is intended for internal Shopify use only.
